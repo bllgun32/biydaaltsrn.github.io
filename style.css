@@ -1,0 +1,55 @@
+/* style */
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+#main-nav{
+    background-color: transparent;
+    position: fixed;
+}
+
+#skill{
+    color: beige;
+}
+.card{
+    color: black;
+}
+#home{
+    background: url('../pic/main4.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+}
+#about{
+    height: 100vh;
+}
+
+.custom-col{
+    margin-top: 25%;
+}
+i{
+    color: black;
+}
+img{
+    filter: sepia(50%);
+}
+.img-hero{
+    height: auto;
+    margin-bottom: 10%;
+}
+.spacing{
+    margin-top: 10%;
+}
+.block{
+    height: 0.3rem;
+    width:6rem;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    opacity:0.5;
+}
